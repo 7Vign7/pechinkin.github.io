@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Geist.Mono";
+    src: url("./Geist.Mono/GeistMono-Black.woff2") format("woff2"),
+    url("./Geist.Mono/GeistMono-Bold.woff2") format("woff2"),
+    url("./Geist.Mono/GeistMono-Light.woff2") format("woff2"),
+    url("./Geist.Mono/GeistMono-Medium.woff2") format("woff2"),
+    url("./Geist.Mono/GeistMono-Regular.woff2") format("woff2"),
+    url("./Geist.Mono/GeistMono-Black.woff2") format("woff2");
+}
+body{
+    font-family: "Geist.Mono";
+    color: #000;
+    padding: 3% 5% 0 5%;
+    margin: 0;
+}
+.didj__top{
+    padding-top: 3%;
+}
+.didj__logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.didj__logo svg{
+    filter: drop-shadow(0 0 25px #EB00FF);
+}
+.titleDidj p{
+    margin: 0;
+    font-size: 32px;
+}
+.titleDidj h1{
+    margin: 0;
+    font-size: 45px;
+}
+blockquote{
+    font-size: 16px;
+    text-align: end;
+}
+section p{
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    .titleDidj p{
+        font-size: 20px;
+    }
+    .titleDidj h1{
+        font-size: 35px;
+    }
+    blockquote{
+        font-size: 14px;
+    }
+    section p{
+        font-size: 16px;
+    }
+    .didj__logo{
+        padding-bottom: 6%;
+    }
+}
